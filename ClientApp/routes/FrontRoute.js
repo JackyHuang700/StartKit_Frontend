@@ -11,11 +11,11 @@ export function FrontRoute({ component: Component, ...rest }) {
           <nav className="navbar navbar-default navbar-static-top">
             <div className="container">
               <div className="navbar-header">
-                <Link to="/" className="navbar-brand">Front Home</Link>
+                <Link to="/Template" className="navbar-brand">Front Home</Link>
               </div>
               <ul className="nav navbar-nav pull-right">
                 <li>
-                  <Link to="/dashboard" className="navbar-brand">Dashboard</Link>
+                  {/* <Link to="/dashboard" className="navbar-brand">Dashboard</Link> */}
                 </li>
               </ul>
             </div>

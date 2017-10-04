@@ -12,7 +12,7 @@ import Home from './views/Front/Home'
 import Login from './views/Front/User/Login2'
 import Forgot from './views/Front/User/Forgot'
 import changePwd from './views/Front/User/changePwd'
-
+import Template from './views/Empty/Template'
 import Dashboard from './components/Backend/Breadcrumb'
 import Role_Create from './views/Backend/Role/Role_Create'
 import Role_Delete from './views/Backend/Role/Role_Delete'
@@ -74,6 +74,7 @@ export default (
     <LoginRoute path='/login' component={Login} />
     <LoginRoute path='/forgot' component={Forgot} />
     <EmptyRoute path='/changePwd' component={changePwd} />
+    <EmptyRoute path='/Template' component={Template} />
     <BackendRoute path='/dashboard' component={Dashboard} />
     <BackendRoute path='/Role' exact component={Role_View} />
     <BackendRoute path='/Role/Create' component={Role_Create} />
